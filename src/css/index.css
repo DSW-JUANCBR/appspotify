@@ -1,0 +1,44 @@
+/* bloque para darle estilo al fondo y a lo que esta dentro de la margen */
+body {
+  margin: 30px;
+  background-color: #5d5d61;
+  font-family:'Georgia', 'Georgia Sans Regular', 'Georgia Grande', 'Georgia Sans Unicode', Georgia;
+  font-size: 16px;
+}
+
+/*bloque para darle estilo al contenedor que esta mostrando la información */
+
+.container {
+background-color: #808a8ade;
+border-radius: 50px;
+border: solid 4px #454747;
+color: black;
+padding: 50px;
+min-height: 800px;
+width: 800px;
+display: flexbox;
+}
+
+label {
+  padding-top:10px;
+  text-align: center;
+}
+
+.form-label {
+  padding-left: 0px;
+}
+
+img {
+  margin-top: 20px;
+  width: 250px;
+  height:250px;
+}
+
+.btn-success {
+  margin-top: 20px;
+  background-color: #191b1a;
+}
+
+.btn-success:hover {
+  background-color: #447068;
+}
